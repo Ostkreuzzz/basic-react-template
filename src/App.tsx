@@ -23,10 +23,8 @@ function App() {
         </h1>
 
         <section>
-          <h3 className='text-xl font-bold'>
-            This is a starter template that I use for my personal and professional projects.
-          </h3>
-          <h4 className='font-bold'>What this starter includes:</h4>
+          <h3 className='text-xl font-bold'>This is a starter template.</h3>
+          <h4 className='font-bold'>Іncludes:</h4>
 
           <ul className='list-inside list-disc text-sm'>
             <li>Tanstack Query ✅</li>
@@ -36,22 +34,6 @@ function App() {
             <li>Relative paths ready ✅</li>
             <li>classNames and tailwind-merge libraries installed with the `cn` function added ✅</li>
           </ul>
-        </section>
-
-        <section className='flex flex-col justify-end'>
-          <p>
-            Check out{' '}
-            <a
-              className='text-blue-600 underline visited:text-purple-600 hover:text-blue-800'
-              href='https://www.youtube.com/@tenacity_dev'
-              target='_blank'
-              rel='noreferrer'
-            >
-              my Youtube channel
-            </a>{' '}
-            where you can learn how to use these tools.
-          </p>
-          <img className='m-auto h-16 w-16' src={tenacityDev} alt='Tenacity Dev logo' />
         </section>
       </section>
     </main>
