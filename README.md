@@ -2,6 +2,14 @@
 
 This is a starter template.
 
+To make this repository yours:
+
+```
+rm -rf .git && git init && npm init
+git add .
+git commit -m "Initial commit"
+```
+
 The starter includes the following libraries:
 
 - `@tanstack/react-query`
